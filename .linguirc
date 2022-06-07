@@ -1,0 +1,8 @@
+{
+   "locales": ["en", "cs", "hb"],
+   "catalogs": [{
+      "path": "/locales/{locale}/messages",
+      "include": ["src"]
+   }],
+   "format": "po"
+}
