@@ -11,7 +11,7 @@ i18n.activate('en');
 
 const App = () => {
   return (
-    <I18nProvider i18n={i18n}>
+    <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
       <View style={styles.container}>
         <Text>
           <Trans>Message Inbox</Trans>
